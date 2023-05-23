@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>台中好好玩</title>
+<link href="reset.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css">
+<script src="js/jquery.min.js"></script> 
+<script src="js/parallaxie.min.js"></script> 
+<script src="js/wow.min.js"></script>
+<link rel="stylesheet" href="css/animate.css">
+</head>
+
+
+<body class="colT">
+<nav>
+  <h3 class="right"><a href="#">臺中好好玩</a></h3>
+  <ul>
+    <li><a href="#a01">簡介</a></li>
+    <li><a href="#a02">古蹟</a></li>
+    <li><a href="#a03">小吃</a></li>
+    
+  </ul>
+</nav>
+<header>
+  <h1 class="wow fadeInDown">台中好好玩<br>
+   </h1>
+  
+</header>
+<main>
+  <article id="a01">
+    <h2>簡介</h2>
+    <div class="container1">
+      <div class="left">
+        <p>臺中為中華民國直轄市，臺灣六都之一，也是中臺灣唯一的直轄市。全市面積2,215平方公里，設籍人口約283萬人，為臺灣的人口第二大城市，也是臺灣第二大都會區「臺中彰化都會區」的核心都市，並常與彰化縣、南投縣合稱「中彰投地區」。</p>
+        <p>「臺中」意即「臺灣之中央」，名稱始於日治時期。在清代以前，臺中便開始出現聚落，但不如鹿港一帶繁榮。其現代化城市的雛形，是於1900年在臺灣日治時期市區改正之後形成。</p>
+      </div>
+      <div class="right wow fadeInRight"></div>
+    </div>
+  </article>
+  <article class="course" id="a02">
+    <h2>古蹟</h2>
+    <p>此三處為臺中有名的有形文化資產</p>
+    <div class="container2">
+      <div class="col01 wow flipInX" data-wow-delay="0.5s">
+        <div class="colT">霧峰林家</div>
+      </div>
+      <div class="col02 wow flipInX">
+        <div class="colT">舊台中火車站</div>
+      </div>
+      <div class="col03 wow flipInX" data-wow-delay="0.5s">
+        <div class="colT">樂成宮</div>
+      </div>
+    </div>
+  </article>
+  <article id="a03">
+    <h2>小吃</h2>
+    <p>於網路平台上備受推薦之美食</p>
+    <div class="container3">
+      <div class="img wow rotateInUpLeft"><img src="小吃1.png" height="300" width="300" alt=""/></div>
+      <div class="img wow rotateInDownRight"><img src="小吃2.png" height="300" width="300" alt=""/></div><br>
+      <div class="img wow rotateInUpLeft"><img src="小吃3.png" height="300" width="300" alt=""/></div>
+      <div class="img wow rotateInDownRight"><img src="小吃4.png" height="300" width="300" alt=""/></div>
+    </div>
+  </article>
+  
+</main>
+<footer> 歡迎來臺中 </footer>
+<script>
+$('header').parallaxie({speed: 0.5, offset: -50,});
+</script> 
+<script>
+$('.course').parallaxie({speed: 0.7, offset: -100,});
+</script> 
+<script>
+	new WOW().init();
+</script>
+</body>
+</html
